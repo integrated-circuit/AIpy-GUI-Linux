@@ -12,8 +12,11 @@ jobs:
       - restore_cache:
           key: AIpy-GUI-Linux/package.json
       - run:
-          name: Install Dependencies
-          command: sudo npm install --save-dev -g
+          name: Install Electron
+          command: sudo npm i electron --save-dev -g
+      - run:
+          name: Install electron-forge
+          command: sudo npm i electron-forge --save-dev -g
 
       - run:
           name: Install dpkg and fakeroot
