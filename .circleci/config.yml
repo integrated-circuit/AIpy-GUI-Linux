@@ -13,7 +13,7 @@ jobs:
           key: AIpy-GUI-Linux/package.json
       - run:
           name: Install Dependencies
-          command: sudo npm install --save-dev
+          command: sudo npm install --save-dev -g
 
       - run:
           name: Install dpkg and fakeroot
