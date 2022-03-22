@@ -13,10 +13,10 @@ jobs:
           key: AIpy-GUI-Linux/package.json
       - run:
           name: Install Electron
-          command: sudo npm install electron --save-dev -g
+          command: sudo npm install --save-dev -g
       - run:
           name: Install electron-forge
-          command: sudo npm install electron-forge --save-dev -g
+          command: sudo npm i electron-forge --save-dev -g
 
       - run:
           name: Install dpkg and fakeroot
