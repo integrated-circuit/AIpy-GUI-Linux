@@ -14,7 +14,7 @@ jobs:
       - run:
           name: Install Dependencies
           command: sudo npm install
-          path: -./node_modules
+
       - run:
           name: Install dpkg and fakeroot
           command: |
