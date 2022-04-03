@@ -12,6 +12,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    
   });
 
   // and load the index.html of the app.
@@ -19,6 +20,7 @@ const createWindow = () => {
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
+  
 };
 
 // This method will be called when Electron has finished

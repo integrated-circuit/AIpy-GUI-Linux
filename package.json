@@ -41,12 +41,14 @@
     }
   },
   "dependencies": {
+    "@electron-forge/plugin-electronegativity": "^6.0.0-beta.63",
     "electron-squirrel-startup": "^1.0.0",
     "meow": "^10.1.2",
     "minimatch": "^5.0.1",
     "npm-check": "^5.9.2",
     "nyc": "^15.1.0",
     "os-utils": "^0.0.14",
+    "python-shell": "^3.0.1",
     "trim-newlines": "^4.0.2",
     "uglify-js": "^3.15.3",
     "yargs-parser": "^21.0.1"
@@ -56,7 +58,8 @@
     "@electron-forge/maker-deb": "^6.0.0-beta.63",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
-    "@electron-forge/plugin-electronegativity": "^6.0.0-beta.63",
-    "electron": "^17.2.0"
+    "concurrently": "^7.0.0",
+    "electron": "^18.0.0",
+    "wait-on": "^6.0.1"
   }
 }
