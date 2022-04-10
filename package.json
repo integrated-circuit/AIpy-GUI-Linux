@@ -41,7 +41,6 @@
     }
   },
   "dependencies": {
-    "@electron-forge/plugin-electronegativity": "^6.0.0-beta.63",
     "electron-squirrel-startup": "^1.0.0",
     "meow": "^10.1.2",
     "minimatch": "^5.0.1",
@@ -60,6 +59,7 @@
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
     "concurrently": "^7.0.0",
     "electron": "^18.0.0",
+    "electron-rebuild": "^3.2.7",
     "wait-on": "^6.0.1"
   }
 }
